@@ -1,0 +1,73 @@
+.my-container {
+	padding: 60px;
+}
+
+/**
+ * Header section
+ */
+header nav .navbar-nav li {
+	margin: auto;
+	text-align: center;
+}
+
+header .intro {
+	width: 90%;
+}
+
+/**
+ * Services section
+ */
+.services .services-row .service-box:not(:last-of-type) {
+	margin-bottom: 40px;
+}
+
+/**
+ * Statistics section
+ */
+.statistics .stats .stat:not(:last-of-type) {
+	margin-bottom: 40px;
+}
+
+/**
+ * Projects section
+ */
+.projects .mixitup-controls {
+	display: block;
+}
+
+	.projects .mixitup-controls .top {
+		margin-bottom: 15px;
+	}
+
+/**
+ * Members section
+ */
+.team {
+	padding: 80px 50px;
+}
+
+	.team .team-intro {
+		width: 100%;
+	}
+
+	.team .team-members .member:not(:last-of-type) {
+		margin-bottom: 40px;
+	}
+
+/**
+ * Contact section
+ */
+.contact form {
+	width: 100%;
+}
+
+/**
+ * Footer section
+ */
+footer .footer-top {
+	width: 90%;
+}
+
+footer .footer-top .footer-box:not(:last-of-type) {
+	margin-bottom: 40px;
+}

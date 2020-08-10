@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta  name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>WebTech</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/jquery.bxslider.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" media="screen and (max-width: 991px)" href="css/mediumScreen.css">
+	<link rel="stylesheet" media="screen and (max-width: 768px)" href="css/smallScreen.css">
+</head>
+<body>
+	<div class="arrow-up"><i class="fas fa-chevron-up"></i></div>
+
+	<header id="home">
+		<div class="overlay">
+			<nav class="navbar navbar-expand-md navbar-dark">
+				<div class="container">
+					<a class="navbar-brand" href="">WebTech</a>
+					
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarsExample04">
+						<ul class="navbar-nav ml-auto">
+							<li class="selected">
+								<a class="section-link" href="" data-target-id="home">Home</a>
+								<span class="bottom-line"></span>
+							</li>
+							<li>
+								<a class="section-link" href="" data-target-id="about">About</a>
+								<span class="bottom-line"></span>
+							</li>
+							<li>
+								<a class="section-link" href="" data-target-id="services">Services</a>
+								<span class="bottom-line"></span>
+							</li>
+							<li>
+								<a class="section-link" href="" data-target-id="projects">Projects</a>
+								<span class="bottom-line"></span>
+							</li>
+							<li>
+								<a class="section-link" href="" data-target-id="contact">Contact Us</a>
+								<span class="bottom-line"></span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+			<div class="intro">
+				<h1>Our Web and Mobile development services are fun, easy and fast</h1>
+				<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, ullam!</h3>
+
+				<button class="hire-us" data-target-id="contact">HIRE US</button>
+			</div>
+		</div>
+
+		<span class="arrow-down"><i class="fas fa-chevron-down"></i></span>
+	</header>
+
+	<section id="about" class="about my-container">
+		<div class="row">
+			<div class="about-left col-md-12 col-lg-4">
+				<h2 class="section-title">About Us</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam accusamus impedit id illo libero aliquam dolorem quis, debitis cupiditate maxime tenetur? Amet nisi dignissimos, et obcaecati expedita vel quibusdam voluptatum!</p>
+			</div>
+
+			<div class="about-right col-md-12 col-lg-8">
+				<img src="images/devices.png" alt="">
+			</div>
+		</div>
+	</section>
+
+	<section id="services" class="services my-container">
+		<h2 class="section-title">Our Services</h2>
+
+		<div class="services-row row">
+			<div class="service-box col-md-6 col-lg-3">
+				<i class="fa fa-desktop icon"></i>
+				<h3 class="service-name">Web Dev</h3>
+				<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, temporibus?</div>
+			</div>
+
+			<div class="service-box col-md-6 col-lg-3">
+				<i class="fa fa-home icon"></i>
+				<h3 class="service-name">Web Design</h3>
+				<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, temporibus?</div>
+			</div>
+
+			<div class="service-box col-md-6 col-lg-3">
+				<i class="fa fa-mobile-alt icon"></i>
+				<h3 class="service-name">Mobile Dev</h3>
+				<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, temporibus?</div>
+			</div>
+
+			<div class="service-box col-md-6 col-lg-3">
+				<i class="fab fa-windows icon"></i>
+				<h3 class="service-name">Desktop Dev</h3>
+				<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, temporibus?</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="statistics" class="statistics my-container">
+		<div class="overlay"></div>
+
+		<h2 class="section-title">Our Statistics</h2>
+
+		<div class="stats row">
+			<div class="stat col-md-6 col-lg-3">
+				<i class="fa fa-users stat-icon"></i>
+				<h3 class="num">100</h3>
+				<h4 class="name">Satisfied Clients</h4>
+			</div>
+
+			<div class="stat col-md-6 col-lg-3">
+				<i class="fab fa-buffer stat-icon"></i>
+				<h3 class="num">150</h3>
+				<h4 class="name">Projects Done</h4>
+			</div>
+
+			<div class="stat col-md-6 col-lg-3">
+				<i class="fa fa-copy stat-icon"></i>
+				<h3 class="num">10</h3>
+				<h4 class="name">Projects In Progress</h4>
+			</div>
+
+			<div class="stat col-md-6 col-lg-3">
+				<i class="fa fa-poll-h stat-icon"></i>
+				<h3 class="num">230</h3>
+				<h4 class="name">Total Posts</h4>
+			</div>
+		</div>
+	</section>
+
+	<section id="projects" class="projects my-container">
+		<h2 class="section-title">Our Projects</h2>
+
+		<div class="mixitup-controls">
+			<div class="top">
+				<button type="button" data-filter="all">All</button>
+				<button type="button" data-filter=".web">Web</button>
+			</div>
+			<div>
+				<button type="button" data-filter=".mobile">Mobil</button>
+				<button type="button" data-filter=".desktop">Desktop</button>
+			</div>
+		</div>
+
+		<div class="mixitup-container row">
+		    <div class="mix web col-md-6 col-lg-4 col-xl-3" data-order="1">
+		    	<div class="pro-container">
+			    	<div class="pro-before"></div>
+			    	<a href="#">
+			    		<img src="images/pro-web-1.png" alt="">
+			    		<div class="pro-after">View Project</div>
+			    	</a>
+			    </div>
+		    </div>
+
+		    <div class="mix web col-md-6 col-lg-4 col-xl-3" data-order="2">
+		    	<div class="pro-container">
+			    	<div class="pro-before"></div>
+			    	<a href="#">
+			    		<img src="images/pro-web-2.png" alt="">
+			    		<div class="pro-after">View Project</div>
+			    	</a>
+			    </div>
+		    </div>
+
+		    <div class="mix web col-md-6 col-lg-4 col-xl-3" data-order="3">
+		    	<div class="pro-container">
+			    	<div class="pro-before"></div>
+			    	<a href="#">
+			    		<img src="images/pro-web-3.png" alt="">
+			    		<div class="pro-after">View Project</div>
+			    	</a>
+			    </div>
+		    </div>
+
+		    <div class="mix mobile col-md-6 col-lg-4 col-xl-3" data-order="4">
+		    	<div class="pro-container">
+			    	<div class="pro-before"></div>
+			    	<a href="#">
+			    		<img src="images/pro-mob-1.jpg" alt="">
+			    		<div class="pro-after">View Project</div>
+			    	</a>
+			    </div>
+		    </div>
+		    
+		    <div class="mix mobile col-md-6 col-lg-4 col-xl-3" data-order="4">
+		    	<div class="pro-container">
+			    	<div class="pro-before"></div>
+			    	<a href="#">
+			    		<img src="images/pro-mob-2.png" alt="">
+			    		<div class="pro-after">View Project</div>
+			    	</a>
+			    </div>
+		    </div>
+		    
+		    <div class="mix mobile col-md-6 col-lg-4 col-xl-3" data-order="4">
+		    	<div class="pro-container">
+			    	<div class="pro-before"></div>
+			    	<a href="#">
+			    		<img src="images/pro-mob-3.jpg" alt="">
+			    		<div class="pro-after">View Project</div>
+			    	</a>
+			    </div>
+		    </div>
+
+		    <div class="mix desktop col-md-6 col-lg-4 col-xl-3" data-order="4">
+		    	<div class="pro-container">
+			    	<div class="pro-before"></div>
+			    	<a href="#">
+			    		<img src="images/pro-desk-1.png" alt="">
+			    		<div class="pro-after">View Project</div>
+			    	</a>
+			    </div>
+		    </div>
+		    
+		    <div class="mix desktop col-md-6 col-lg-4 col-xl-3" data-order="4">
+		    	<div class="pro-container">
+			    	<div class="pro-before"></div>
+			    	<a href="#">
+			    		<img src="images/pro-desk-2.jpg" alt="">
+			    		<div class="pro-after">View Project</div>
+			    	</a>
+			    </div>
+		    </div>
+		    
+		    <div class="mix desktop col-md-6 col-lg-4 col-xl-3" data-order="4">
+		    	<div class="pro-container">
+			    	<div class="pro-before"></div>
+			    	<a href="#">
+			    		<img src="images/pro-desk-3.jpg" alt="">
+			    		<div class="pro-after">View Project</div>
+			    	</a>
+			    </div>
+		    </div>
+		</div>
+	</section>
+
+	<section id="testimonials" class="testimonials">
+		<div class="slider">
+			<div class="testimonial">
+				<img src="images/person-1.jpg">
+				<div class="name">Mr. John</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, unde, eius. Corporis quasi eaque, pariatur ipsam esse, expedita at iste!</p>
+			</div>
+
+			<div class="testimonial">
+				<img src="images/person-2.jpg">
+				<div class="name">Sarah Jackson</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, unde, eius. Corporis quasi eaque, pariatur ipsam esse, expedita at iste!</p>
+			</div>
+
+			<div class="testimonial">
+				<img src="images/person-3.png">
+				<div class="name">Jane Peter</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, unde, eius. Corporis quasi eaque, pariatur ipsam esse, expedita at iste!</p>
+			</div>
+
+			<div class="testimonial">
+				<img src="images/person-4.jpg">
+				<div class="name">Michael Hanson</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, unde, eius. Corporis quasi eaque, pariatur ipsam esse, expedita at iste!</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="team" class="team my-container">
+		<h2 class="section-title team-title">Our Team</h2>
+		<p class="team-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis saepe qui ea consectetur, nihil quod.</p>
+
+		<div class="team-members row">
+			<div class="member col-md-6 col-lg-3">
+				<img class="member-img" src="images/member-1.jpg">
+				<h3 class="member-name">David Nathan</h3>
+				<div class="member-social">
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-github"></i></a>
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+				</div>
+				<p class="member-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, in.</p>
+			</div>
+
+			<div class="member col-md-6 col-lg-3">
+				<img class="member-img" src="images/member-2.jpg">
+				<h3 class="member-name">Angela Sam</h3>
+				<div class="member-social">
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-github"></i></a>
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+				</div>
+				<p class="member-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, in.</p>
+			</div>
+
+			<div class="member col-md-6 col-lg-3">
+				<img class="member-img" src="images/member-3.jpg">
+				<h3 class="member-name">Kathrina</h3>
+				<div class="member-social">
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-github"></i></a>
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+				</div>
+				<p class="member-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, in.</p>
+			</div>
+
+			<div class="member col-md-6 col-lg-3">
+				<img class="member-img" src="images/member-4.jpg">
+				<h3 class="member-name">Kevin Ward</h3>
+				<div class="member-social">
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-github"></i></a>
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+				</div>
+				<p class="member-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, in.</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact" class="contact my-container">
+		<h2 class="section-title">Contact Us</h2>
+
+		<form action="" method="post">
+			<input type="text" name="first_name" class="form-control" placeholder="First Name">
+			<input type="text" name="last_name" class="form-control" placeholder="Last Name">
+			<input type="email" name="email" class="form-control" placeholder="Email">
+			<input type="text" name="phone" class="form-control" placeholder="Phone">
+			<textarea name="message" rows="7" class="form-control" placeholder="Message"></textarea>
+			<button class="form-control">Send</button>
+		</form>
+	</section>
+
+	<footer>
+		<div class="footer-top row">
+			<div class="footer-about footer-box col-md-6 col-lg-3">
+				<h3>About WebTech</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis ipsa reprehenderit vel, ullam numquam, totam.</p>
+				<div class="social-icons">
+					<div>
+						<a href=""><i class="fab fa-twitter"></i></a>
+					</div>
+					<div>
+						<a href=""><i class="fab fa-facebook-f"></i></a>
+					</div>
+					<div>
+						<a href=""><i class="fab fa-github"></i></a>
+					</div>
+					<div>
+						<a href=""><i class="fab fa-linkedin-in"></i></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer-categories footer-box col-md-6 col-lg-3">
+				<h3>Categories</h3>
+				<ul>
+					<li>Web Dev</li>
+					<li>Web Design</li>
+					<li>Mobile Dev</li>
+					<li>Desktop Dev</li>
+				</ul>
+			</div>
+			
+			<div class="footer-links footer-box col-md-6 col-lg-3">
+				<h3>Quick Links</h3>
+				<ul>
+					<li><a href="" class="section-link" data-target-id="home"><i class="fas fa-chevron-right"></i> Home</a></li>
+					<li><a href="" class="section-link" data-target-id="about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+					<li><a href="" class="section-link" data-target-id="services"><i class="fas fa-chevron-right"></i> Services</a></li>
+					<li><a href="" class="section-link" data-target-id="projects"><i class="fas fa-chevron-right"></i> Projects</a></li>
+					<li><a href="" class="section-link" data-target-id="contact"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+				</ul>
+			</div>
+			
+			<div class="footer-contact footer-box col-md-6 col-lg-3">
+				<h3>Contact Us</h3>
+
+				<div>
+					<p><strong>Address: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, vero!</p>
+					<p><strong>Phone: </strong>233-837-938</p>
+					<p><strong>Email: </strong><span class="email">info@webtech.com</span></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-down row text-center">
+			<div class="col-md-6">All Rights &copy; 2020</div>
+			<div class="col-md-6">Designed by WebTech Team</div>
+		</div>
+	</footer>
+	
+	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+	<script type="text/javascript" src="js/mixitup.min.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>

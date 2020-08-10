@@ -1,0 +1,62 @@
+/**
+ * Header section
+ */
+header nav .navbar-nav li a {
+	font-size: 14px;
+}
+
+header .intro .hire-us {
+	font-size: 14px;
+}
+
+/**
+ * About section
+ */
+.about .about-left {
+	width: 100%;
+	text-align: center;
+}
+
+	.about .about-left .section-title {
+		text-align: center;
+	}
+
+.about .about-right {
+	width: 100%;
+}
+
+	.about .about-right img {
+		margin-top: 25px;
+	}
+
+/**
+ * Services section
+ */
+.services .services-row .service-box:not(:nth-of-type(n+3)) {
+	margin-bottom: 40px;
+}
+
+/**
+ * Statistics section
+ */
+.statistics .stats .stat:not(:nth-of-type(n+3)) {
+	margin-bottom: 40px;
+}
+
+/**
+ * Members section
+ */
+.team .team-intro {
+	width: 70%;
+}
+
+.team .team-members .member:not(:nth-of-type(n+3)) {
+	margin-bottom: 40px;
+}
+
+/**
+ * Footer section
+ */
+footer .footer-top .footer-box:not(:nth-of-type(n+3)) {
+	margin-bottom: 40px;
+}
